@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Submission Form component should match the snapshot 1`] = `
+<div>
+  <h3>
+    Find out a Github user favourite language
+  </h3>
+  <form>
+    <div
+      class="form-control"
+    >
+      <label
+        for="text"
+      >
+        Username
+      </label>
+      <input
+        placeholder="Enter name..."
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      class="btn"
+    >
+      Search User
+    </button>
+  </form>
+  <br />
+</div>
+`;
