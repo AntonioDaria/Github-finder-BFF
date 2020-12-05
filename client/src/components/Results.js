@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Results = ({results}) => {
+const Results = ({ results }) => {
     return (
-        <>
-            <h3>Our Best Guess</h3>
-            <ul className="list">
+        <div>
+            <h3>Our Best Guess is:</h3>
+            <div className="results-container">
                 {results}
-            </ul>
-        </>
+            </div>
+        </div>
     )
 }
 
