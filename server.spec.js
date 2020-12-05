@@ -1,3 +1,4 @@
+const favouriteLanguageController = require('./src/controllers/favouriteLanguage.controller')
 const useSpy = jest.fn();
 const listenSpy = jest.fn();
 
@@ -9,10 +10,11 @@ jest.doMock('express', () => {
 });
 
 describe('should test server configuration', () => {
-  xit('use router', () => {
+  it('use router', () => {
     require('./server.js');
-    expect(useSpy).toHaveBeenCalledWith( '/');
+    expect(useSpy).toHaveBeenCalledWith( '/api/v1/language' , favouriteLanguageController);
   });
+
 
   it('should call listen fn', () => {
     require('./server.js');
