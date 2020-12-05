@@ -9,7 +9,8 @@ const SubmissionForm = () => {
     const onSubmit = async (e) => {
         e.preventDefault();
 
-
+        const userName= text;
+        console.log(text)
     }
 
     return (
