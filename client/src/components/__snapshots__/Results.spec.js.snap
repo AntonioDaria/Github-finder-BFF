@@ -2,11 +2,13 @@
 
 exports[`Results component should match the snapshot 1`] = `
 <div>
-  <h3>
-    Our Best Guess
-  </h3>
-  <ul
-    class="list"
-  />
+  <div>
+    <h3>
+      Our Best Guess is:
+    </h3>
+    <div
+      class="results-container"
+    />
+  </div>
 </div>
 `;
