@@ -11,7 +11,7 @@ const SubmissionForm = () => {
         e.preventDefault();
 
         const userName = text;
-        
+
         const apiResult = await findFavLanguage(userName);
 
         setResults(apiResult);

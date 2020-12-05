@@ -6,7 +6,7 @@ describe('Results component', () => {
     let container;
 
     beforeEach(() => {
-      ({ container} = renderHeader());
+      ({ container} = renderResult());
     });
 
     it('should match the snapshot', () => {
@@ -14,9 +14,8 @@ describe('Results component', () => {
     });
 });
 
-const renderHeader= () => {
+const renderResult = () => {
     return render(
-      <Results>
-      </Results>
+      <Results />
     );
   };
