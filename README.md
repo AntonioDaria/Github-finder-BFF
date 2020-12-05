@@ -1,6 +1,6 @@
 # GithubFinder Browser
 
-A simple tool to allow anyone to find out what is Github user's favourite language:
+A simple tool to allow anyone to find out what is a Github user's favourite language:
 ```
 As a user
 so I can use the application
@@ -35,7 +35,7 @@ I can press submit and see the results on the same page
 
 ## Scaling up ⏫
 
-- IN SOA the code would have been split into two different microservices for the pourpose of this exercise the code was made all in one repo
+- Ia a typical SOA architecture the code would have been split into two different microservices for the pourpose of this exercise the code was made all in   one repo
 
 ## Getting started
 
@@ -67,4 +67,12 @@ visit http://localhost:3000/
 - concurrently to run simultaneously frontend and backend
 - Node js
 - Express
-- Jets 
+- Jest 
+
+### Testing
+
+- All the current tests are passing. The tests from back end and front end will need to be run independently :
+- For Front end testing navigate to the client folder and run npm run test press a for all tests
+- For Backend test navigate to the root folder and run npm run test, you will see the back end tests passing and for some reason
+2 front end test not passing. I am unsure as to why this is happening. Alternatively run the test individually like so.:
+npm run test <'filename'>
