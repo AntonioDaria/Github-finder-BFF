@@ -35,7 +35,7 @@ I can press submit and see the results on the same page
 
 ## Scaling up ⏫
 
-- Ia a typical SOA architecture the code would have been split into two different microservices for the pourpose of this exercise the code was made all in   one repo
+- In a typical SOA architecture the code would have been split into two different microservices for the pourpose of this exercise the code was made all in   one repo
 
 ## Getting started
 
