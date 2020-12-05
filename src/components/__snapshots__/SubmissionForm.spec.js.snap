@@ -27,5 +27,11 @@ exports[`Submission Form component should match the snapshot 1`] = `
     </button>
   </form>
   <br />
+  <h3>
+    Our Best Guess
+  </h3>
+  <ul
+    class="list"
+  />
 </div>
 `;

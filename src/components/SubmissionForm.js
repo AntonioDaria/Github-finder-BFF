@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
+import Results from "./Results";
 
 const SubmissionForm = () => {
 
-    //const [result, setResults] = useState([]);
     const [text, setText] = useState('');
+    const [result, setResults] = useState([]);
 
     const onSubmit = async (e) => {
         e.preventDefault();
@@ -22,7 +23,7 @@ const SubmissionForm = () => {
                 <button className="btn">Search User</button>
             </form>
             <br></br>
-            {/* <Results results={result} /> */}
+            <Results results={result}/>
         </>
     )
 }
