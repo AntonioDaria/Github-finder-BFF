@@ -1,16 +1,16 @@
 const express = require('express')
 
-const app = express.Router()
+const router = express.Router()
 
 const { getFavLanguage } = require('../services/favouriteLanguage.service')
 
 
 try {
-    app.get('/language/:userName/', getFavLanguage);
+    router.get('/language/:userName/', getFavLanguage);
 } catch (error) {
     console.log(error)
     throw new Error ("Failed to retrieve the language");
 }
 
 
-module.exports = app
+module.exports = router
