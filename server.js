@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const colors = require('colors');
 const morgan = require('morgan');
-const favouriteLanguageController = require('./src/controllers/favouriteLanguage.controller')
+const controllers = require('./src/controllers')
 
 dotenv.config({ path: './config/config.env' })
 
@@ -10,7 +10,7 @@ const app = express();
 
 
 app
- .use('/api/v1/language', favouriteLanguageController);
+ .use('/api/v1', controllers);
 
 
 const PORT = process.env.PORT || 5000
